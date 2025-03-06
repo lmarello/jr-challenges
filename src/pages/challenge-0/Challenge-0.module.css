@@ -1,0 +1,9 @@
+.go {
+  margin-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.go:hover {
+  color: rgb(120, 120, 236);
+}
