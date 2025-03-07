@@ -24,17 +24,12 @@ Este repositorio contiene una serie de **retos prácticos** diseñados para desa
 
 ---
 
-## 🏆 **Lista de Challenges**
+## 🏆 **Conceptos**
 
-Cada challenge tiene un **objetivo** que debes completar.
-
-| Challenge          | Descripción                                                                                                              |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| **🔹 Comencemos**  | 🔗 El enlace "COMENCEMOS" no funciona. Deberás hacer que al hacer click en el texto se navegue a la ruta `/challenge-1`. |
-| **🔹 Challenge 1** | 🌍 Solo se visualiza 1 país, debes listar todos los países del array.                                                    |
-| **🔹 Challenge 2** | 🌎 Filtrar y mostrar solo los países del array que pertenezcan al continente "América".                                  |
-| **🔹 Challenge 3** | 🔠 Listar todos los países del array y ordenarlos alfabéticamente por su nombre.                                         |
-| **🔹 Challenge 4** | 📊 Mostrar los 3 países con mayor población. **Opcional:** Mostrar la población en un formato legible.                   |
+- Renderizado dinámico: listar y mostrar datos.
+- Manipulación de arrays: Métodos como .map(), .filter(), .sort() y .slice().
+- Destructuring y Spread Operator: Manejo eficiente de objetos y arrays en JavaScript.
+- Estados y eventos en React: Uso de useState para actualizar la UI en respuesta a interacciones del usuario.
 
 ---
 

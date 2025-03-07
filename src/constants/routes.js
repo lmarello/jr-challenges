@@ -1,4 +1,11 @@
-import { Challenge0, Challenge1, Challenge2, Challenge3 } from "../pages";
+import {
+  Challenge0,
+  Challenge1,
+  Challenge2,
+  Challenge3,
+  Challenge4,
+  Challenge5,
+} from "../pages";
 
 export const routes = [
   {
@@ -28,10 +35,16 @@ export const routes = [
   {
     name: "Challenge 4",
     path: "/challenge-4",
-    Component: Challenge3,
+    Component: Challenge4,
     goal: `🎯 Listar los 3 paises del array con mayor población.
            | 🎯 opcional: mostrar la población de cada país.
            | 🎯 opcional: mostrar la población de cada país en un formato legible (ej. 14.345.342).
            `,
+  },
+  {
+    name: "Challenge 5",
+    path: "/challenge-5",
+    Component: Challenge5,
+    goal: `🎯 Implementar las funciones necesarias para que el contador funcione (incrementar / decrementar / reiniciar)`,
   },
 ];

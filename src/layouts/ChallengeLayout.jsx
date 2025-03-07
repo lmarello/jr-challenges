@@ -1,15 +1,20 @@
 import styles from "./ChallengeLayout.module.css";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { routes } from "../constants/routes";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const ChallengeLayout = ({ challengeComponent, goal, challengeId }) => {
+const ChallengeLayout = ({ challengeComponent, goal }) => {
+  const location = useLocation();
   const [selectedChallenge, setSelectedChallenge] = useState(routes[0].path);
 
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const currentPath = location.pathname;
+    setSelectedChallenge(currentPath);
+  }, [setSelectedChallenge, location.pathname]);
+
   const handleClick = (path) => {
-    setSelectedChallenge(path);
     navigate(path);
   };
 

@@ -11,11 +11,7 @@ const AppRoutes = () => {
             key={path}
             path={path}
             element={
-              <ChallengeLayout
-                challengeComponent={<Component />}
-                goal={goal}
-                challengeId={path}
-              />
+              <ChallengeLayout challengeComponent={<Component />} goal={goal} />
             }
           />
         ))}
