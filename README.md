@@ -49,10 +49,9 @@ Cada challenge tiene un **objetivo** que debes completar.
 
 ## 🎯 **¿Cómo completar los challenges?**
 
-1. Lee atentamente el objetivo de cada challenge que se muestra en la parte inferior.
-2. Modifica el código en el archivo correspondiente en `/pages/ChallengeX.jsx`.
-3. **Usa React y buenas prácticas** para resolverlo.
-4. **Guarda los cambios y revisa si el resultado es el esperado.** 🚀
+1. 🤓 Lee atentamente el objetivo de cada challenge que se muestra en la parte inferior.
+2. ✍🏼 Modifica el código en el archivo correspondiente en `/pages/ChallengeX.jsx`.
+3. 🚀 **Guarda los cambios y revisa si el resultado es el esperado.**
 
 ---
 
