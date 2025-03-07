@@ -45,7 +45,7 @@ Este repositorio contiene una serie de **retos prácticos** diseñados para desa
 ## 🎯 **¿Cómo completar los challenges?**
 
 1. 🤓 Lee atentamente el objetivo de cada challenge que se muestra en la parte inferior.
-2. ✍🏼 Modifica el código en el archivo correspondiente en `/pages/ChallengeX.jsx`.
+2. ✍🏼 Modifica el código en el archivo correspondiente en `/challenges/ChallengeX.jsx`.
 3. 🚀 **Guarda los cambios y revisa si el resultado es el esperado.**
 
 ---
