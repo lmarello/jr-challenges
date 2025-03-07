@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🚀 Dev Challenges - Trainee/Jr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene una serie de **retos prácticos** diseñados para desarrolladores **Trainee y Junior**, enfocados en **React + Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 **¿Cómo comenzar?**
 
-## Expanding the ESLint configuration
+1. **Clona este repositorio**
+   ```sh
+   git clone https://github.com/lmarello/jr-challenges.git
+   cd dev-challenges
+   ```
+2. **Instala las dependencias**
+   ```sh
+   npm install
+   ```
+3. **Ejecuta el proyecto en modo desarrollo**
+   ```sh
+   npm run dev
+   ```
+4. **Abre en tu navegador**
+   - El proyecto se ejecutará en [`http://localhost:5173`](http://localhost:5173).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🏆 **Lista de Challenges**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Cada challenge tiene un **objetivo** que debes completar.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Challenge          | Descripción                                                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| **🔹 Comencemos**  | 🔗 El enlace "COMENCEMOS" no funciona. Deberás hacer que al hacer click en el texto se navegue a la ruta `/challenge-1`. |
+| **🔹 Challenge 1** | 🌍 Solo se visualiza 1 país, debes listar todos los países del array.                                                    |
+| **🔹 Challenge 2** | 🌎 Filtrar y mostrar solo los países del array que pertenezcan al continente "América".                                  |
+| **🔹 Challenge 3** | 🔠 Listar todos los países del array y ordenarlos alfabéticamente por su nombre.                                         |
+| **🔹 Challenge 4** | 📊 Mostrar los 3 países con mayor población. **Opcional:** Mostrar la población en un formato legible.                   |
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 🛠 **Tecnologías utilizadas**
+
+- ⚡ [Vite](https://vitejs.dev/) - Configuración rápida de React
+- ⚛️ [React](https://react.dev/) - Biblioteca de UI
+- 📦 [React Router](https://reactrouter.com/) - Navegación entre páginas
+- 💅 [CSS Modules](https://github.com/css-modules/css-modules) - Estilos encapsulados (aunque ahora es mas importante centrarse en funcionalidad)
+
+---
+
+## 🎯 **¿Cómo completar los challenges?**
+
+1. Lee atentamente el objetivo de cada challenge que se muestra en la parte inferior.
+2. Modifica el código en el archivo correspondiente en `/pages/ChallengeX.jsx`.
+3. **Usa React y buenas prácticas** para resolverlo.
+4. **Guarda los cambios y revisa si el resultado es el esperado.** 🚀
+
+---
+
+🔗 **¿Listo?** Inicia el proyecto con `npm run dev` y ¡a codear! 👨🏼‍💻

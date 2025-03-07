@@ -12,7 +12,7 @@ const AppRoutes = () => {
             path={path}
             element={
               <ChallengeLayout
-                challenge={<Component />}
+                challengeComponent={<Component />}
                 goal={goal}
                 challengeId={path}
               />

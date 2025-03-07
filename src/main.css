@@ -1,0 +1,15 @@
+.text-link {
+  margin-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-link:hover {
+  color: rgb(120, 120, 236);
+}
+
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

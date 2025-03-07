@@ -1,8 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import styles from "./Challenge-0.module.css";
-
-export const Challenge0 = () => {
+const Challenge = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -13,8 +11,10 @@ export const Challenge0 = () => {
     <div>
       <p>
         <span>🚀</span>
-        <span className={styles.go}>VAMOS AL CHALLENGE 1</span>
+        <span className="text-link">COMENCEMOS</span>
       </p>
     </div>
   );
 };
+
+export default Challenge;

@@ -1,3 +1,4 @@
-export { Challenge0 } from "./challenge-0/Challenge-0";
-export { Challenge1 } from "./challenge-1/Challenge-1";
-export { Challenge2 } from "./challenge-2/Challenge-2";
+export { default as Challenge0 } from "./Challenge-0";
+export { default as Challenge1 } from "./Challenge-1";
+export { default as Challenge2 } from "./Challenge-2";
+export { default as Challenge3 } from "./Challenge-3";
